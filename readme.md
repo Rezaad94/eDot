@@ -39,6 +39,7 @@ You can install your APK using:
 adb install /path/to/your/app.apk
 ```
 Replace `/path/to/your/app.apk` with the actual path to your APK file.
+or you can drag and drop file apk to the emulator
 
 
 ## 6. Run Appium Server
@@ -77,7 +78,8 @@ chmod +x run_all_tests.sh
 ## Notes
 
 - Make sure your emulator is running before starting Appium and running mobile tests.
-- Update any configuration files (such as `config.py`) with your credentials or environment-specific values as needed.
+- Update any configuration files (such as `mobile_config.py` or `web_config.py`) with your credentials or environment-specific values as needed.
+- You can see test case here https://github.com/Rezaad94/eDot/blob/main/Test%20Case%20eDot.xlsx or you can download it by click download icon
 
 
 
