@@ -2,7 +2,14 @@
 
 This guide will help you set up your environment for running both web and mobile automation tests for the eDot project.
 
-## 1. Install Python
+## 1. Clone Repository
+
+Before run test you should clone repository here
+```
+git clone https://github.com/Rezaad94/eDot.git
+```
+
+## 2. Install Python
 
 Download and install Python 3.9 or later from [python.org](https://www.python.org/downloads/).
 
@@ -11,28 +18,28 @@ Verify installation:
 python3 --version
 ```
 
-## 2. Install Project Requirements
+## 3. Install Project Requirements
 
 Install pip if not already installed, then install dependencies:
 ```sh
 pip install -r requirements.txt
 ```
 
-## 3. Set Up Android Emulator
+## 4. Set Up Android Emulator
 
 - Install [Android Studio](https://developer.android.com/studio).
 - Open Android Studio and go to **Tools > Device Manager**.
 - Create a new virtual device (emulator) with your desired configuration (e.g., Pixel 4, Android 11).
 
 
-## 4. Run the Emulator
+## 5. Run the Emulator
 
 Start the emulator from Android Studio or via terminal:
 ```sh
 emulator -avd <your_emulator_name>
 ```
 
-## 5. Install the App on the Emulator
+## 6. Install the App on the Emulator
 
 You can install your APK using:
 ```sh
@@ -42,7 +49,7 @@ Replace `/path/to/your/app.apk` with the actual path to your APK file.
 or you can drag and drop file apk to the emulator
 
 
-## 6. Run Appium Server
+## 7. Run Appium Server
 
 Install Appium globally (if not already installed):
 ```sh
@@ -58,7 +65,7 @@ or for Appium 2.x:
 appium server
 ```
 
-## 7. Run the Tests
+## 8. Run the Tests
 
 **Web Tests:**
 ```sh
